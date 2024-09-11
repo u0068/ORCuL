@@ -23,7 +23,7 @@ function upd()
     local isClosed = inp[1] ~= 1
     local motionDetected = inp[2] == 1
 	local isLocked = inp[3] or nil
-	local o2LevelA = inp[4] or -1 --this lest us know when detectors arent plugged in
+	local o2LevelA = inp[4] or -1 --this lets us know when detectors arent plugged in
 	local o2LevelB = inp[5] or -1
 	local waterLevelA = inp[6] or -1
 	local waterLevelB = inp[7] or -1
